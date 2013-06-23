@@ -3,6 +3,7 @@
 
 <div class="container">
   <div class="row">
+  
   	<div class="span">
     	<div class="span">
   			<h1>Template: 2 Columns</h1>
