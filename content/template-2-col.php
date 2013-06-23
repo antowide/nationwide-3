@@ -8,7 +8,7 @@
   			<h1>Template: 2 Columns</h1>
             <h2>With Property Search Sidebar</h2>
 
-		  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat dictum nulla, in fermentum dui egestas vel. Praesent eu ante nec quam tempor rutrum vitae in massa. Curabitur imperdiet odio et quam sollicitudin, at tempus sapien fermentum. Sed tempor quis mauris sed gravida. Morbi sit amet consectetur quam. Morbi dictum mollis orci, vitae varius ipsum sodales gravida. Integer eget condimentum libero.</p>
+		  	<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat dictum nulla, in fermentum dui egestas vel. Praesent eu ante nec quam tempor rutrum vitae in massa. Curabitur imperdiet odio et quam sollicitudin, at tempus sapien fermentum. Sed tempor quis mauris sed gravida. Morbi sit amet consectetur quam. Morbi dictum mollis orci, vitae varius ipsum sodales gravida. Integer eget condimentum libero.</p>
 			  
 			  <img src="img/flyer02.png" width="299" height="213" alt="Nationwide Residential and Commercial" class="pull-right"><p>Nulla dictum nisl sed tincidunt mollis. Maecenas rhoncus laoreet tellus, nec iaculis sapien ultrices eu. In pharetra, urna venenatis consequat pretium, dui nibh ornare felis, sit amet vulputate arcu diam et eros. Nullam ut felis ac tortor pretium aliquam sit amet id nulla. Suspendisse potenti. Etiam eleifend dui non dignissim euismod. Suspendisse condimentum sapien ut erat vulputate, sit amet pellentesque nisi egestas.</p>
 			  
