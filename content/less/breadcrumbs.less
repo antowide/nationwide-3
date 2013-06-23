@@ -1,0 +1,45 @@
+//
+// Breadcrumbs
+// --------------------------------------------------
+
+
+.breadcrumb {
+  padding: 8px 15px;
+  margin: -10px 0 10px /*@baseLineHeight*/;
+  list-style: none;
+  background-color: rgba(255,255,255,0.8);
+  position:relative;
+  .border-radius(@baseBorderRadius);
+  > li {
+    display: inline-block;
+    .ie7-inline-block();
+    text-shadow: 0 1px 0 @white;
+    > .divider {
+      padding: 0 5px;
+      color: #ccc;
+    }
+  }
+  > .active {
+    color: @grayLight;
+  }
+}
+
+.google-search{
+	position:absolute;
+	top:3px;
+	right:5px;
+	width:400px;
+		input.gsc-input{
+			margin-bottom:0;
+		}
+		.gsc-control-cse {
+	    background-color: transparent;
+	    border-color: transparent;
+	    font-family: Verdana,sans-serif;
+	}
+		.cse .gsc-control-cse,
+		.gsc-control-cse {
+	    padding: 0;
+	    width: auto;
+	}
+}

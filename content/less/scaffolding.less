@@ -1,0 +1,84 @@
+//
+// Scaffolding
+// --------------------------------------------------
+
+
+// Body reset
+// -------------------------
+*{.transition(all .2s ease-in-out);}
+//.span1, .span2, .span3,.span4, .span5, .span6,.span7, .span8, .span9, .span10, .span11, .span12{outline:2px dashed red;}
+//.row{outline:2px dashed blue;}
+html{height:auto; min-height:100%;}
+body {
+  margin: 0;
+  padding-bottom: 40px;
+  font-family: @baseFontFamily;
+  font-size: 16px;
+  line-height: @baseLineHeight;
+  color: @textColor;
+   /*background-color:@bodyBackground;*/ 
+   //#gradient > .vertical(@natBlue, @white);
+   //background:url(../../../img/bg-2x2.gif) no-repeat ;
+   //background: url(../../../docs/assets/img/examples/slide-04.jpg) no-repeat fixed center top;
+   .background-size(100% 100%);
+}
+.flexbox{ /*  Calls in flexbox mixin  */
+	.flex-display;
+}
+
+// Links
+// -------------------------
+
+a {
+  color: @linkColor;
+  text-decoration: none;
+}
+a:hover {
+  color: @linkColorHover;
+  text-decoration: underline;
+}
+
+
+// Images
+// -------------------------
+
+// Rounded corners
+.img-rounded {
+  .border-radius(6px);
+}
+
+// Add polaroid-esque trim
+.img-polaroid {
+  padding: 4px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,.2);
+  .box-shadow(0 1px 3px rgba(0,0,0,.1));
+}
+
+// Perfect circle
+.img-circle {
+  .border-radius(500px); // crank the border-radius so it works with most reasonably sized images
+}
+
+// Property Search Sidebar
+// -------------------------
+
+.prop-search{
+	background:#fff;
+	padding:12px;
+	h3{
+		margin-top:0;
+	}
+}
+
+// Footer
+// -------------------------
+
+footer{
+	color:#fff;
+	>div{
+		background:#000;
+		padding:20px 0;
+	}
+}
