@@ -13,6 +13,7 @@
 	        <a href="details1.php" class="btn btn-primary btn-large pull-right">View details</a>
 	    </div>
 	</div>
+    <hr style="border-width: 5px;">
 </div>
 
 <!-- [/property-result-1.php] -->
