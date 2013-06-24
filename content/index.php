@@ -43,6 +43,9 @@
   					<a href="finance.php">Finance</a>
   				</li>
                 <li>
+  					<a href="details1.php">Property Details Page 1</a>
+  				</li>
+                <li>
   					<a href="links.php">Links</a>
   				</li>
                 <li>
