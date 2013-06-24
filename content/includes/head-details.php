@@ -24,8 +24,8 @@
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
     <link rel="shortcut icon" href="../favicon.ico">
 
-    <link rel="stylesheet" type="text/css" href="css/carousel/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/carousel/elastislide.css" />
+    <link rel="stylesheet" type="text/css" href="docs/assets/css/carousel/style.css" />
+    <link rel="stylesheet" type="text/css" href="docs/assets/css/carousel/elastislide.css" />
     <?php include('includes/carousel-script.php'); ?>
 </head>
   
