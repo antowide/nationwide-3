@@ -20,10 +20,36 @@
   					<a href="#">Home Page 2</a>
   				</li>
                 <li>
-  					<a href="#">About Us</a>
+  					<a href="about.php">About Us</a>
   				</li>
                 <li>
-  					<a href="#">Finance</a>
+  					Search Results Pages
+                    <ul>
+	                    <li>
+                        	<a href="about.php">Results Page 1</a>
+	                    </li>
+                        <li>
+                        	<a href="about.php">Results Page 2</a>
+	                    </li>
+                        <li>
+                        	<a href="about.php">Results Page 3</a>
+	                    </li>
+                        <li>
+                        	<a href="about.php">Results Page 4</a>
+	                    </li>
+                    </ul>
+  				</li>
+                <li>
+  					<a href="finance.php">Finance</a>
+  				</li>
+                <li>
+  					<a href="links.php">Links</a>
+  				</li>
+                <li>
+  					<a href="testimonials.php">Testimonials</a>
+  				</li>
+                <li>
+  					<a href="contact.php">Contact Us</a>
   				</li>
   			</ul>
       </div>

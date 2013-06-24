@@ -21,12 +21,12 @@
                   <a href="prop-search.php" class="dropdown-toggle" data-toggle="dropdown">Property Search <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                   	<li class="nav-header">Residential</li>
-                    <li><a href="results.php">Residential Property: To Buy</a></li>
-                    <li><a href="results.php">Residential Property: To Rent</a></li>
+                    <li><a href="results1.php">Residential Property: To Buy</a></li>
+                    <li><a href="results1.php">Residential Property: To Rent</a></li>
                     <li class="divider"></li>
                     <li class="nav-header">Commercial</li>
-                    <li><a href="results.php">Commercial Property: To Buy</a></li>
-                    <li><a href="results.php">Commercial Property: To Rent</a></li>
+                    <li><a href="results1.php">Commercial Property: To Buy</a></li>
+                    <li><a href="results1.php">Commercial Property: To Rent</a></li>
                   </ul>
                 </li>
               	<li><a href="finance.php">Finance</a></li>
