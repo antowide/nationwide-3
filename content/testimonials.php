@@ -7,7 +7,7 @@
   	<div class="span7">
     	<div class="span7">
 	          <h2>Testimonials</h2>
-	          <p class="lead">Don't just take our word for the quality of service we provide. Here are what some of our valued clients have said about us:</p>  
+	          <p>Don't just take our word for the quality of service we provide. Here are what some of our valued clients have said about us:</p>  
               <div class="row">
               	<div class="span">
 	                <blockquote>
