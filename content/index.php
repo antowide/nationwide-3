@@ -14,7 +14,7 @@
   					<a href="template-1-col.php">1 Column Template with Property Search Full-Width</a>
   				</li>
                 <li>
-  					<a href="#">Home Page 1</a>
+  					<a href="home.php">Home Page 1</a>
   				</li>
                 <li>
   					<a href="#">Home Page 2</a>

@@ -15,7 +15,7 @@
             <?php include('includes/nav-brand.php'); ?>
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="home.php">Home</a></li>
                 <li class="active"><a href="about.php">About Us</a></li>
                 <li class="dropdown">
                   <a href="prop-search.php" class="dropdown-toggle" data-toggle="dropdown">Property Search <b class="caret"></b></a>
