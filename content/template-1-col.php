@@ -1,7 +1,8 @@
 <?php include('includes/head.php'); ?>
-<?php include('includes/header.php'); ?>
+<?php include('includes/headers/header.php'); ?>
 
-<div class="container">
+
+  <div class="container">
   <div class="row">
   
   	<div class="span">
