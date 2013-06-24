@@ -1,7 +1,7 @@
 
 <!-- [header.php] -->
 
-<body style="background:url(img/bg-repeat-green.png) repeat-x scroll 0 0;">
+<body>
 
 	<div class="navbar-wrapper">
       <div class="container">
