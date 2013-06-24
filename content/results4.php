@@ -15,7 +15,7 @@
             <?php include('includes/search-results/property-result-1.php'); ?>
             <?php include('includes/search-results/property-result-1.php'); ?>
         
-        	<?php include('includes/pagination/pagination1.php'); ?>
+        	<?php include('includes/pagination/pagination4.php'); ?>
         
         
         </div>
