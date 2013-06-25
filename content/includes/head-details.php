@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
-    <title>Page Name | Nationwide Residential and Commercial</title>
+    <title>Property Details | Nationwide Residential and Commercial</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -23,8 +23,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
     <link rel="shortcut icon" href="../favicon.ico">
-
-    <link rel="stylesheet" type="text/css" href="docs/assets/css/carousel/style.css" />
+    
     <link rel="stylesheet" type="text/css" href="docs/assets/css/carousel/elastislide.css" />
     <?php include('includes/carousel-script.php'); ?>
 </head>

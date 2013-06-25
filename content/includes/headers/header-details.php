@@ -31,7 +31,7 @@
         
         <ul class="breadcrumb span11">
           <li><a href="index.php">Home</a> <span class="divider">/</span></li>
-          <li class="active">About Us</li>
+          <li class="active">Property Details</li>
           <li class="google-search">
           <?php include('includes/search.php'); ?>
           </li>
