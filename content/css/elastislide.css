@@ -87,12 +87,12 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  background: #000000 url(../img/carousel-images/nav.png) no-repeat -20% 50%;
+  background: #a3d6f4 url(../img/carousel-images/nav.png) no-repeat -20% 50%;
   width: 28px;
   height: 100%;
   text-indent: -9000px;
   cursor: pointer;
-  opacity: 0.3;
+  opacity: 0.5;
   outline: none;
   border-radius: 10px 0px 0px 10px;
 }
@@ -103,7 +103,7 @@
   border-radius: 0px 10px 10px 0px;
 }
 .rg-image-nav a:hover {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .rg-caption {
   text-align: center;
