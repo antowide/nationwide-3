@@ -129,8 +129,9 @@
   background-position: 115% 50%;
   border-radius: 0px 10px 10px 0px;
 }
-.rg-image-nav a:hover {
-  opacity: 0.9;
+.rg-image-nav a:hover,
+.rg-image-nav a:focus {
+  opacity: 1;
 }
 .rg-caption {
   text-align: center;
@@ -172,6 +173,8 @@
   -webkit-box-shadow: 2px 2px 4px #666666;
   -moz-box-shadow: 2px 2px 4px #666666;
   box-shadow: 2px 2px 4px #666666;
+  opacity: 1.0;
+  cursor: default;
 }
 .rg-view a.rg-view-thumbs {
   background-position: 0px -16px;

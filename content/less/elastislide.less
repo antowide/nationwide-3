@@ -110,8 +110,9 @@
 			background-position:115% 50%;
 			border-radius: 0px 10px 10px 0px;
 		}
-		&:hover {
-			opacity:0.9;
+		&:hover,
+		&:focus {
+			opacity:1;
 		}
 	}
 }
@@ -149,6 +150,8 @@
 			background-color: @natBlue;
 			border-color: @natBlue;
 			.box-shadow(2px 2px 4px #666);
+			opacity: 1.0;
+			cursor: default;
 		}
 		&.rg-view-thumbs {
 			background-position:0px -16px;
