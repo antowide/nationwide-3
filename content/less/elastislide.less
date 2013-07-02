@@ -34,6 +34,10 @@
 				-o-transition: all 0.2s ease-in-out;
 				-ms-transition: all 0.2s ease-in-out;
 				transition: all 0.2s ease-in-out;
+				&:focus {
+					border-color: #fff;
+					opacity: 1.0;
+				}
 				img {
 					display:block;
 					border:none;
@@ -104,6 +108,7 @@
 		opacity:0.5;
 		outline:none;
 		border-radius: 10px 0px 0px 10px;
+		.box-shadow(0px 0px 0px #004080;);
 		&.rg-image-nav-next {
 			right:0px;
 			left:auto;
@@ -113,6 +118,9 @@
 		&:hover,
 		&:focus {
 			opacity:1;
+			.box-shadow(0px 5px 5px #004080;);
+			border:1px solid #fff;
+			.box-sizing(border-box);
 		}
 	}
 }
@@ -137,7 +145,11 @@
 		border:3px solid #ccc;
 		opacity:0.8;
 		.box-shadow(0px 0px 0px #000);
-		&:hover {
+		&:hover,
+		&:focus {
+			background-color: @natBlue;
+			border-color: @natBlue;
+			.box-shadow(2px 2px 4px #666);
 			opacity: 1.0;
 		}
 		&:focus {
