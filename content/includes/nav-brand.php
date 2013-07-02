@@ -3,7 +3,7 @@
 
 		<a class="brand" href="index.php" >
 			<!--[if lt IE 9]>
-			  <img class="nat-logo-ie" src="../img/logo01.png" alt="Nationwide logo">
+			  <img class="nat-logo-ie" src="img/svg-strapline-white-text.png" alt="Nationwide logo">
 			<![endif]-->
 			<img class="nat-logo" src="img/logo01.svg" alt="Nationwide logo">
 		    <span class="nat-first-line">
