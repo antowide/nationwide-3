@@ -1,4 +1,31 @@
 /*"Helvetica Neue", Helvetica, Arial, sans-serif;*/
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 /* Elastislide Style */
 .es-carousel-wrapper {
   background: #a3d6f4;
@@ -122,20 +149,29 @@
   float: right;
   width: 16px;
   height: 16px;
-  margin-right: 3px;
-  background: #464646 url(../img/carousel-images/views.png) no-repeat top left;
-  border: 3px solid #464646;
+  margin-right: 10px;
+  background: #cccccc url(../img/carousel-images/views.png) no-repeat top left;
+  border: 3px solid #ccc;
   opacity: 0.8;
+  -webkit-box-shadow: 0px 0px 0px #000000;
+  -moz-box-shadow: 0px 0px 0px #000000;
+  box-shadow: 0px 0px 0px #000000;
 }
 .rg-view a:hover {
   opacity: 1.0;
+}
+.rg-view a:focus {
+  outline: none;
 }
 .rg-view a.rg-view-full {
   background-position: 0px 0px;
 }
 .rg-view a.rg-view-selected {
-  background-color: #6f6f6f;
-  border-color: #6f6f6f;
+  background-color: #a3d6f4;
+  border-color: #a3d6f4;
+  -webkit-box-shadow: 2px 2px 4px #666666;
+  -moz-box-shadow: 2px 2px 4px #666666;
+  box-shadow: 2px 2px 4px #666666;
 }
 .rg-view a.rg-view-thumbs {
   background-position: 0px -16px;

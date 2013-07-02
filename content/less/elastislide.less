@@ -1,4 +1,5 @@
 @import "variables.less"; // Modify this for custom colors, font-sizes, etc
+@import "mixins.less";
 
 /* Elastislide Style */
 .es-carousel-wrapper{
@@ -130,19 +131,24 @@
 		float:right;
 		width:16px;
 		height:16px;
-		margin-right:3px;
-		background:#464646 url(../img/carousel-images/views.png) no-repeat top left;
-		border:3px solid #464646;
+		margin-right:10px;
+		background:#ccc url(../img/carousel-images/views.png) no-repeat top left;
+		border:3px solid #ccc;
 		opacity:0.8;
+		.box-shadow(0px 0px 0px #000);
 		&:hover {
 			opacity: 1.0;
+		}
+		&:focus {
+			outline: none;
 		}
 		&.rg-view-full {
 			background-position:0px 0px;
 		}
 		&.rg-view-selected {
-			background-color:#6f6f6f;
-			border-color:#6f6f6f;
+			background-color: @natBlue;
+			border-color: @natBlue;
+			.box-shadow(2px 2px 4px #666);
 		}
 		&.rg-view-thumbs {
 			background-position:0px -16px;
